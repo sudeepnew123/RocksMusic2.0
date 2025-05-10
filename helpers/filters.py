@@ -16,11 +16,10 @@
 
 
 from typing import List, Union
-
 from pyrogram import filters
-
 from config import COMMAND_PREFIXES
 
+# Updated filters without 'edited'
 other_filters = filters.group & ~filters.via_bot & ~filters.forwarded
 other_filters2 = filters.private & ~filters.via_bot & ~filters.forwarded
 
