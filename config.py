@@ -26,6 +26,8 @@ GROUP_SUPPORT = getenv("GROUP_SUPPORT", "Shayri_Music_Lovers")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "jankarikiduniya")
 # isi dengan username kamu tanpa simbol @
 OWNER_NAME = getenv("OWNER_NAME", "Dr_Asad_Ali")
+# config.py
+COMMAND_PREFIXES = ["/", "!", "."]
 # fill with your id as the owner of the bot
 OWNER_ID = int(os.environ.get("OWNER_ID"))
 DATABASE_URL = os.environ.get("DATABASE_URL")  # fill with your mongodb url
