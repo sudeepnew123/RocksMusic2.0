@@ -1,6 +1,6 @@
 pyrogram
-tgcrypto
-py-tgcalls==0.5.5
+pyrogram==2.0.106
+tgcrypto==1.2.2
 python-dotenv
 youtube_search_python==1.4.6
 speedtest-cli
