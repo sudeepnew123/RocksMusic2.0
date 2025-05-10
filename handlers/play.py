@@ -110,7 +110,7 @@ async def generate_cover(title, thumbnail):
 
 
 @Client.on_message(
-    command(["playlist", f"playlist@{BOT_USERNAME}"]) & filters.group & ~filters.edited
+    command(["playlist", f"playlist@{BOT_USERNAME}"]) & filters.group
 )
 async def playlist(client, message):
     global que
